@@ -1,6 +1,6 @@
 1.	Drag and drop the router(1841) from the bottom of the screen
 2.	Drag and drop the 2 PCs from the bottom of the screen
-3.	Click on Router0, and connect the cable via FastEthernet0/0. Click the PC0 and select FastEthernet.
+3.	Using copper cross-over cables, Click on Router0, and connect the cable via FastEthernet0/0. Click the PC0 and select FastEthernet.
 4.	Do the same for PC1, connect the cable to FastEthernet0/1
 5.	Open CLI in router
     1. Press RETURN to start the session 
