@@ -48,7 +48,8 @@ List of CN experiment
     -	enable password CCNA
     -	exit
     -	exit
-    -	note: then type ur password to check if its working (which is CCNA in this case)
+    - en
+    -	note: then itll ask for ur password, then type ur password to check if its working (which is CCNA in this case)
     -	sh run
     -	conf t
     -	service password-encryption
@@ -56,6 +57,7 @@ List of CN experiment
     -	enable secret cisco
     -	exit 
     -	exit
+    - en
     -	then itll ask for ur password again enter it as cisco this time
     -	sh run
 
