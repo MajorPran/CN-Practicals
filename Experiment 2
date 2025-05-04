@@ -1,0 +1,20 @@
+1.	Drag and drop the router(1841) from the bottom of the screen
+2.	Drag and drop the 2 PCs from the bottom of the screen
+3.	Click on Router0, and connect the cable via FastEthernet0/0. Click the PC0 and select FastEthernet.
+4.	Do the same for PC1, connect the cable to FastEthernet0/1
+5.	Open CLI in router
+    1. Press RETURN to start the session 
+    2. Type enable to get to privileged mode (this gives you more options in configuring the router) 
+    3. Type config terminal (or config t for short) to access the configuration menu. 
+    4. Type interface fastethernet0/0 to access Ethernet0/0 
+    5. Type ip address 192.168.10.1 255.255.255.0 to assign an IP address and subnet mask to the interface. 
+    6. Type no shutdown to open the interface up for business.
+6.	After this, do the following in CLI again:
+    1. Press Ctrl + Z to go back to the previous mode. 
+    2. Type config t 
+    3. Type interface fastethernet0/1 
+    4. Type ip address 192.168.20.1 255.255.255.0 
+    5. Type no shutdown
+7.	Click on PC0 to bring up the configuration menu. Under global settings you will find a field for the gateway. Enter the corresponding IP address of the router’s interface, which is 192.168.10.1. Then click the FastEthernet tab on the left column to set the actual computer’s IP address to be on the network. Use 192.168.10.2 for the IP address, and 255.255.255.0 for the subnet mask.
+8.	Do the same thing for PC1, only use 192.168.20.1 for the gateway address, 192.168.20.2 for the IP address, and 255.255.255.0 for the subnet mask. You can confirm that your network works by sending out a packet of information from PC0 to PC1, and vice versa. 
+9.	Click the packet icon from top. Click on PC0 and then click PC1.
